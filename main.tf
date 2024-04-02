@@ -65,3 +65,5 @@ resource "aws_security_group_rule" "blog_everthing_out" {
 
   security_group_id = aws_security_group.blog.id
 }
+
+
